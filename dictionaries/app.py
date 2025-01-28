@@ -32,6 +32,7 @@ print("Original Person:", person)
 person["nameUpdated"] = person.pop("name")
 print("Updated Person:", person)
 
-# Clear Dictionary Values
+print("mario" in person.values())
+
 person.clear()
-print("Clear Person", person)
+print("Cleared Dictionary", person)

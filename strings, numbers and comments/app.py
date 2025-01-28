@@ -7,6 +7,8 @@ name = "luigi"
 age = 32
 height = "luigi"
 
+print("n" in name)
+
 # prining variables
 print(name, age, height)
 
@@ -47,3 +49,6 @@ print(greeting)
 """
 multi-line comment using three single line quotes
 """
+
+s = "hello"
+print(dir(s))
